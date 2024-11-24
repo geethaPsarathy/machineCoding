@@ -1,0 +1,58 @@
+.accordion-container {
+    max-width: 600px; /* Adjust to your desired width */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion-header {
+    background-color: #f9f9f9;
+    width: 100%; /* Ensure it stretches the full width */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    outline: none; /* Remove outline for better UI */
+    display: flex;
+    align-items: center; /* Align text and icons (if any) properly */
+    justify-content: space-between; /* Space between text and icons */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .accordion-header:hover {
+    background-color: #e0e0e0; /* Add a hover effect */
+  }
+  
+  .accordion-content {
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    max-height: 0; /* Default to collapsed state */
+    padding: 0 15px; /* Collapsed padding */
+  }
+  
+  
+  .accordion-content.open {
+    max-height: 200px; /* Set a large enough max-height for expanded state */
+    padding: 10px 15px; /* Add padding for expanded content */
+  }
+
+  .accordion-content-hidden {
+    display: none; /* Hide content when not open */
+  }
+  
