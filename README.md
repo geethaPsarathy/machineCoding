@@ -1,6 +1,3 @@
-Here's a professional and comprehensive README.md template for your repository:
-
-
 # React Machine Coding Challenges
 
 Welcome to the **React Machine Coding Challenges** repository! 🎉 This repository is designed to help developers of all levels—from entry-level to senior—hone their React.js skills by tackling thoughtfully crafted challenges. Each challenge focuses on building scalable, extensible, and maintainable React applications while adhering to industry best practices.
@@ -40,7 +37,7 @@ Ensure you have the following installed on your machine:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/react-machine-coding-challenges.git
+   git clone https://github.com/geethaPsarathy/react-machine-coding-challenges.git
    ```
 2. Navigate to a specific challenge folder:
    ```bash
@@ -129,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📫 Contact
 
-For questions or feedback, feel free to reach out to me at [your-email@example.com] or open an issue on GitHub.
+For questions or feedback, feel free to reach out to me or open an issue on GitHub.
 
 ---
 
